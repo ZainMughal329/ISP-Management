@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return const GetMaterialApp(
       title: 'Flutter Demo',
       home: Scaffold(
-        body: SafeArea(child: Column(children: [Center(child: Text("here we go"),)],)),
+        body: SafeArea(child: Center(child: Column(children: [Center(child: Text("here we go"),)],))),
       ),
 
     );
