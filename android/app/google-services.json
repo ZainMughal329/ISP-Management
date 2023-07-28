@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1096839077520:android:c31aa5c3fcacd7f5d28215",
+        "mobilesdk_app_id": "1:1096839077520:android:84952bdebc2c198fd28215",
         "android_client_info": {
-          "package_name": "com.example.dream_net"
+          "package_name": "com.example.dreamnet"
         }
       },
       "oauth_client": [
@@ -29,6 +29,13 @@
             {
               "client_id": "1096839077520-f6jln4929qht4l1pmfcm6fe6ba88hehe.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1096839077520-6hpog910tnbg4tq56npv7gsqedtc4qso.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.android.application"
+              }
             }
           ]
         }
