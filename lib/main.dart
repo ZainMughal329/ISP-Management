@@ -1,11 +1,13 @@
+import 'package:dream_net/Screens/SessionPages/signUpPage/view.dart';
+import 'package:dream_net/Utilities/Routes/routes.dart';
+import 'package:dream_net/Utilities/Routes/routesNames.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-   Firebase.initializeApp();
-
+  Firebase.initializeApp();
 
   runApp(const MyApp());
 }
@@ -16,13 +18,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
+    return GetMaterialApp(
       title: 'Flutter Demo',
-      home: Scaffold(
-        body: SafeArea(child: Center(child: Column(children: [Center(child: Text("here we go"),)],))),
-      ),
-
+      initialRoute: RoutesNames.loginScreen,
+      getPages: AppPages.routes,
     );
   }
 }
-
